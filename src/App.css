@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,input{
+  width: 150px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;  
+}
+.App{
+width: 100vw;
+height: 100vh;
+padding: 25px;
+
+}
+.btn_search{
+  background-color: blue;
+  color: white;
+}
+body {
+  background-color:rgb(108, 151, 244);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.character-card {
+  border: 3px solid greenyellow;
+  margin: 1rem auto;
+  max-width: 300px;
+  
+}
+.character-card-modal{
+  z-index: 9999;
+  color: white;
+  border: solid 1px white;
+}
+a{
+  color: green;
+}
+img {
+  width: 100%;
+}
+.container{
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.card_body{
+  padding: 15px;
+}
+form{
+  display: flex;
+  gap: 10px;
+}
+.modal{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(5px);
+  background-color: rgba(13, 13, 13, 0.801);
+}
